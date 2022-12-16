@@ -1,7 +1,7 @@
 import Image from "next/image";
 import * as S from "./mainStyles";
 
-const MainPresetner = () => {
+const MainPresetner = (props) => {
   return (
     <>
       <S.MainWrapper>
@@ -15,6 +15,9 @@ const MainPresetner = () => {
               alt="포트폴리오1"
             />
             <div>
+              <S.PortPolio1 onClick={props.onClickMoveMarket}>
+                중고마켓 자세히 보러가기
+              </S.PortPolio1>
               <S.Description>
                 <strong>description</strong>
                 <br />
