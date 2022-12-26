@@ -57,6 +57,17 @@ const MarketPresenter = () => {
             <span>CSS3</span>
           </S.SkillStyle2>
         </S.SkillWrapper>
+        <h2>프로젝트 목표</h2>
+        <S.Description>
+          Next.js를 사용하여 API연결 및 여러기능들을 학습하고 직접 프로젝트에
+          구현해보기위한 프로젝트
+        </S.Description>
+        <h2>
+          깃허브링크 :
+          <a href="https://github.com/azerose/frontend-jw">
+            https://github.com/azerose/frontend-jw{" "}
+          </a>
+        </h2>
         <div>
           <h2>초기화면</h2>
           <Image

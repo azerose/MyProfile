@@ -42,6 +42,13 @@ const MainPresetner = (props) => {
           <article>
             <h2>TodoList(with Wanted-pre-onboarding)</h2>
           </article>
+          <article>
+            <h2>
+              <S.PortPolio2 href="https://coral-writer-e11.notion.site/7efcfd9184a4442b8b9a23a0b51924a4">
+                자기소개서 보러가기
+              </S.PortPolio2>
+            </h2>
+          </article>
         </main>
         <footer></footer>
       </S.MainWrapper>
