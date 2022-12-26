@@ -7,6 +7,10 @@ export const MainWrapper = styled.section`
 
 export const PortPolio2 = styled.a`
   background-color: #fcf2ce;
+  :hover {
+    background-color: orange;
+    color: #fcf2ce;
+  }
 `;
 
 export const Description = styled.div`
@@ -18,4 +22,8 @@ export const PortPolio1 = styled.article`
   background-color: #fcf2ce;
   cursor: pointer;
   margin: 30px 0;
+  :hover {
+    background-color: orange;
+    color: #fcf2ce;
+  }
 `;
