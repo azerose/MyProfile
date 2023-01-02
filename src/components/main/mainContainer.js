@@ -7,6 +7,10 @@ const MainContainer = () => {
   const onClickMoveMarket = () => {
     router.push("/market");
   };
+
+  const onClickMovePreonBoarding = () => {
+    router.push("/preonboarding");
+  };
   return <MainPresetner onClickMoveMarket={onClickMoveMarket} />;
 };
 

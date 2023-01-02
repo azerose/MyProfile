@@ -53,6 +53,21 @@ const MainPresetner = (props) => {
 
           <article>
             <S.TitleStyle>TodoList(with Wanted-pre-onboarding)</S.TitleStyle>
+            <img
+              width={700}
+              height={400}
+              src={"/todolist.png"}
+              alt="포트폴리오3"
+            />
+            <S.PortPolio1 onClick={props.onClickMoveMarket}>
+              토이프로젝트 상세히 보러가기
+            </S.PortPolio1>
+            <S.Description>
+              <strong>description</strong>
+              <br />
+              <br />
+              토이프로젝트: 원티드 프리온보딩 사전과제(with.RestAPI)
+            </S.Description>
           </article>
           <article></article>
         </main>
