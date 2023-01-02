@@ -19,7 +19,7 @@ const MarketPresenter = () => {
         <Image
           width={700}
           height={400}
-          src={"/freeboard/firstPage.gif"}
+          src={process.env.PUBLIC_URL + "/freeboard/firstPage.gif"}
           alt="번개장터 랜딩페이지"
         />
       </div>
@@ -73,7 +73,7 @@ const MarketPresenter = () => {
           <Image
             width={400}
             height={400}
-            src={"/freeboard/firstPage.gif"}
+            src={process.env.PUBLIC_URL + "/freeboard/firstPage.gif"}
             alt="랜딩페이지"
           />
           <h2>권한분기</h2>
@@ -83,14 +83,14 @@ const MarketPresenter = () => {
           <Image
             width={400}
             height={300}
-            src={"/freeboard/Auth.gif"}
+            src={process.env.PUBLIC_URL + "/freeboard/Auth.gif"}
             alt="권한분기"
           />
           <h2>회원가입</h2>
           <Image
             width={400}
             height={300}
-            src={"/freeboard/signup.gif"}
+            src={process.env.PUBLIC_URL + "/freeboard/signup.gif"}
             alt="회원가입"
           />
         </div>
@@ -98,63 +98,63 @@ const MarketPresenter = () => {
         <Image
           width={400}
           height={300}
-          src={"/freeboard/login.gif"}
+          src={process.env.PUBLIC_URL + "/freeboard/login.gif"}
           alt="로그인"
         />
         <h2>상품등록</h2>
         <Image
           width={400}
           height={300}
-          src={"/freeboard/enrollProduct.gif"}
+          src={process.env.PUBLIC_URL + "/freeboard/enrollProduct.gif"}
           alt="상품등록"
         />
         <h2>상품문의,수정,삭제</h2>
         <Image
           width={400}
           height={300}
-          src={"/freeboard/comment.gif"}
+          src={process.env.PUBLIC_URL + "/freeboard/comment.gif"}
           alt="상품댓글"
         />
         <h2>충전</h2>
         <Image
           width={400}
           height={300}
-          src={"/freeboard/charge.gif"}
+          src={process.env.PUBLIC_URL + "/freeboard/charge.gif"}
           alt="충전기능"
         />
         <h2>게시글 등록</h2>
         <Image
           width={400}
           height={300}
-          src={"/freeboard/boardEnroll.gif"}
+          src={process.env.PUBLIC_URL + "/freeboard/boardEnroll.gif"}
           alt="게시글등록"
         />
         <h2>게시글 수정</h2>
         <Image
           width={400}
           height={300}
-          src={"/freeboard/editBoard.gif"}
+          src={process.env.PUBLIC_URL + "/freeboard/editBoard.gif"}
           alt="게시글수정"
         />
         <h2>게시글 삭제</h2>
         <Image
           width={400}
           height={300}
-          src={"/freeboard/deleteBoard.gif"}
+          src={process.env.PUBLIC_URL + "/freeboard/deleteBoard.gif"}
           alt="게시글삭제"
         />
         <h2>게시글 검색</h2>
         <Image
           width={400}
           height={300}
-          src={"/freeboard/search.gif"}
+          src={process.env.PUBLIC_URL + "/freeboard/search.gif"}
           alt="게시글 검색"
         />
         <h2>댓글 CRUD</h2>
         <Image
           width={400}
           height={300}
-          src={"/freeboard/commentEnroll.gif"}
+          src={process.env.PUBLIC_URL + "/freeboard/commentEnroll.gif"}
           alt="댓글 등록"
         />
       </main>

@@ -17,7 +17,7 @@ const MainPresetner = (props) => {
               <Image
                 width={700}
                 height={400}
-                src={"/busker/buskermain.gif"}
+                src={process.env.PUBLIC_URL + "/busker/buskermain.gif"}
                 alt="포트폴리오2"
               />
               <div>
@@ -36,7 +36,7 @@ const MainPresetner = (props) => {
             <Image
               width={700}
               height={400}
-              src={"/freeboard/firstPage.gif"}
+              src={process.env.PUBLIC_URL + "/freeboard/firstPage.gif"}
               alt="포트폴리오1"
             />
             <div>
