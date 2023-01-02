@@ -1,4 +1,3 @@
-import Image from "next/image";
 import * as S from "./marketStyles";
 
 const MarketPresenter = () => {
@@ -16,10 +15,10 @@ const MarketPresenter = () => {
         </S.StartDay>
       </S.DateWrapper>
       <div>
-        <Image
+        <img
           width={700}
           height={400}
-          src={process.env.PUBLIC_URL + "/freeboard/firstPage.gif"}
+          src={"/freeboard/firstPage.gif"}
           alt="번개장터 랜딩페이지"
         />
       </div>
@@ -70,91 +69,91 @@ const MarketPresenter = () => {
         </h2>
         <div>
           <h2>초기화면</h2>
-          <Image
+          <img
             width={400}
             height={400}
-            src={process.env.PUBLIC_URL + "/freeboard/firstPage.gif"}
+            src={"/freeboard/firstPage.gif"}
             alt="랜딩페이지"
           />
           <h2>권한분기</h2>
           <S.DateWrapper>
             (로그인 하지 않으면 로그인창으로 보내기)
           </S.DateWrapper>
-          <Image
+          <img
             width={400}
             height={300}
-            src={process.env.PUBLIC_URL + "/freeboard/Auth.gif"}
+            src={"/freeboard/Auth.gif"}
             alt="권한분기"
           />
           <h2>회원가입</h2>
-          <Image
+          <img
             width={400}
             height={300}
-            src={process.env.PUBLIC_URL + "/freeboard/signup.gif"}
+            src={"/freeboard/signup.gif"}
             alt="회원가입"
           />
         </div>
         <h2>로그인</h2>
-        <Image
+        <img
           width={400}
           height={300}
-          src={process.env.PUBLIC_URL + "/freeboard/login.gif"}
+          src={"/freeboard/login.gif"}
           alt="로그인"
         />
         <h2>상품등록</h2>
-        <Image
+        <img
           width={400}
           height={300}
-          src={process.env.PUBLIC_URL + "/freeboard/enrollProduct.gif"}
+          src={"/freeboard/enrollProduct.gif"}
           alt="상품등록"
         />
         <h2>상품문의,수정,삭제</h2>
-        <Image
+        <img
           width={400}
           height={300}
-          src={process.env.PUBLIC_URL + "/freeboard/comment.gif"}
+          src={"/freeboard/comment.gif"}
           alt="상품댓글"
         />
         <h2>충전</h2>
-        <Image
+        <img
           width={400}
           height={300}
-          src={process.env.PUBLIC_URL + "/freeboard/charge.gif"}
+          src={"/freeboard/charge.gif"}
           alt="충전기능"
         />
         <h2>게시글 등록</h2>
-        <Image
+        <img
           width={400}
           height={300}
-          src={process.env.PUBLIC_URL + "/freeboard/boardEnroll.gif"}
+          src={"/freeboard/boardEnroll.gif"}
           alt="게시글등록"
         />
         <h2>게시글 수정</h2>
-        <Image
+        <img
           width={400}
           height={300}
-          src={process.env.PUBLIC_URL + "/freeboard/editBoard.gif"}
+          src={"/freeboard/editBoard.gif"}
           alt="게시글수정"
         />
         <h2>게시글 삭제</h2>
-        <Image
+        <img
           width={400}
           height={300}
-          src={process.env.PUBLIC_URL + "/freeboard/deleteBoard.gif"}
+          src={"/freeboard/deleteBoard.gif"}
           alt="게시글삭제"
         />
         <h2>게시글 검색</h2>
-        <Image
+        <img
           width={400}
           height={300}
-          src={process.env.PUBLIC_URL + "/freeboard/search.gif"}
+          src={"/freeboard/search.gif"}
           alt="게시글 검색"
         />
         <h2>댓글 CRUD</h2>
-        <Image
+        <img
           width={400}
           height={300}
-          src={process.env.PUBLIC_URL + "/freeboard/commentEnroll.gif"}
+          src={"/freeboard/commentEnroll.gif"}
           alt="댓글 등록"
         />
       </main>

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import * as S from "./mainStyles";
 
 const MainPresetner = (props) => {
@@ -14,10 +13,10 @@ const MainPresetner = (props) => {
             </S.TitleStyle>
             <article>
               <S.TitleStyle>BUSKER(with codecamp 9th)</S.TitleStyle>
-              <Image
+              <img
                 width={700}
                 height={400}
-                src={process.env.PUBLIC_URL + "/busker/buskermain.gif"}
+                src={"/busker/buskermain.gif"}
                 alt="포트폴리오2"
               />
               <div>
@@ -33,10 +32,10 @@ const MainPresetner = (props) => {
               </div>
             </article>
             <S.TitleStyle>중고마켓</S.TitleStyle>
-            <Image
+            <img
               width={700}
               height={400}
-              src={process.env.PUBLIC_URL + "/freeboard/firstPage.gif"}
+              src={"/freeboard/firstPage.gif"}
               alt="포트폴리오1"
             />
             <div>
