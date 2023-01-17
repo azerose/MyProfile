@@ -20,7 +20,7 @@ const MainPresetner = (props) => {
                 alt="포트폴리오2"
               />
               <div>
-                <S.PortPolio2 href="https://www.notion.so/dingco/3-e2d64b040e144ad98d68d0f0caaec5e0">
+                <S.PortPolio2 href="https://bit.ly/9_BUSKER">
                   BUSKER 자세히 보러가기
                 </S.PortPolio2>
                 <S.Description>
@@ -59,7 +59,7 @@ const MainPresetner = (props) => {
               src={"/todolist.png"}
               alt="포트폴리오3"
             />
-            <S.PortPolio1 onClick={props.onClickMoveMarket}>
+            <S.PortPolio1 onClick={props.onClickMovePreonBoarding}>
               토이프로젝트 상세히 보러가기
             </S.PortPolio1>
             <S.Description>

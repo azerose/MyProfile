@@ -1,7 +1,7 @@
 const PreOnBoardingPresenter = () => {
   return (
     <>
-      <div>ㅎ ㅏ2 </div>
+      <h2>원티드 사전과제</h2>
     </>
   );
 };
