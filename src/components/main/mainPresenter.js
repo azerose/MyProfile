@@ -13,12 +13,7 @@ const MainPresetner = (props) => {
             </S.TitleStyle>
             <article>
               <S.TitleStyle>BUSKER(with codecamp 9th)</S.TitleStyle>
-              <img
-                width={700}
-                height={400}
-                src={"/busker/buskermain.gif"}
-                alt="포트폴리오2"
-              />
+              <S.ImgStyle src={"/busker/buskermain.gif"} alt="포트폴리오2" />
               <div>
                 <S.PortPolio2 href="https://bit.ly/9_BUSKER">
                   BUSKER 자세히 보러가기
@@ -51,7 +46,7 @@ const MainPresetner = (props) => {
             </div>
           </article>
 
-          <article>
+          <article style={{ display: "flex", flexDirection: "column" }}>
             <S.TitleStyle>TodoList(with Wanted-pre-onboarding)</S.TitleStyle>
             <img
               width={700}
@@ -59,9 +54,9 @@ const MainPresetner = (props) => {
               src={"/todolist.png"}
               alt="포트폴리오3"
             />
-            <S.PortPolio1 onClick={props.onClickMovePreonBoarding}>
+            <S.PortPolio2 href="https://github.com/azerose/wanted-pre-onboarding-frontend">
               토이프로젝트 상세히 보러가기
-            </S.PortPolio1>
+            </S.PortPolio2>
             <S.Description>
               <strong>description</strong>
               <br />
