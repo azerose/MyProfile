@@ -1,16 +1,27 @@
 import styled from "@emotion/styled";
 import { useRouter } from "next/router";
 import Footer from "./footer/footer";
+import { breakPoints } from "../style/globalStyles";
 
 const MainWrapper = styled.div`
   width: 80%;
-  min-width: 700px;
   display: flex;
   flex-direction: column;
   margin: 20px auto;
   box-shadow: 0px -10px 10px 0px gray;
   align-items: center;
   padding: 30px 0;
+  @media ${breakPoints.mobile} {
+    width: 500px;
+    align-items: center;
+    box-shadow: none;
+    img {
+      display: none;
+    }
+  }
+  @media ${breakPoints.tablet} {
+    width: 800px;
+  }
 `;
 
 const HomBtn = styled.button`

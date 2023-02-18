@@ -4,6 +4,9 @@ import { breakPoints } from "../../commons/style/globalStyles";
 export const MainWrapper = styled.section`
   width: 100%;
   margin: 0 auto;
+  @media ${breakPoints.mobile} {
+    width: 320px;
+  }
 `;
 
 export const PortPolio2 = styled.a`
