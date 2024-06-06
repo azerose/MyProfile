@@ -1,10 +1,9 @@
 import styled from "@emotion/styled";
 import { useRouter } from "next/router";
 import Footer from "./footer/footer";
-import { breakPoints } from "../style/globalStyles";
+import { breakPoints } from "../../commons/style/globalStyles";
 
 const MainWrapper = styled.div`
-  width: 80%;
   display: flex;
   flex-direction: column;
   margin: 20px auto;

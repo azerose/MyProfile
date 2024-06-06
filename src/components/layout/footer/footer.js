@@ -1,4 +1,4 @@
-import AboutMe from "../../aboutme/aboutme";
+import AboutMe from "../../../commons/aboutme/aboutme";
 
 const Footer = () => {
   return <AboutMe />;
